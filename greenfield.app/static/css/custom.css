@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500);
+
+:root {
+    --palette-common-white: rgb(240, 240, 240);
+
+    --palette-primary-light: rgba(167, 230, 97, 1);
+    --palette-primary-main: rgba(111, 174, 42, 1);
+    --palette-primary-dark: rgba(55, 121, 0, 1);
+
+    --palette-secondary-main: #1c86f2;
+    --palette-secondary-light: #4ca0f5;
+}
+
+.gr-logo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #565656;
+    font-weight: 200;
+}
+
+.gr-logoi {
+    color: var(--palette-primary-main);
+}
+
+.button {
+    background-color: var(--palette-secondary-main);
+}
+
+.button:hover {
+    background-color: var(--palette-secondary-light);
+    transition: background-color ease-in-out 200ms;
+}
+
+.button.outline:hover {
+    border-color: var(--palette-secondary-light);
+    color: var(--palette-secondary-light);
+    transition: all ease-in-out 200ms;
+}
+
+.button.outline {
+    border-color: var(--palette-secondary-main);
+    color: var(--palette-secondary-main);
+}
+
+#hero p:before {
+    background: var(--palette-primary-main);
+}
+
+a {
+    color: var(--palette-primary-main);
+}
+
+#top #top-nav-main b a {
+    text-decoration: unset;
+}
+
+a[target='_blank']::after {content: ' \29C9';}
+
+body {
+    background-color: var(--palette-common-white);
+}
+
+#posts h2 a {
+    color: var(--palette-primary-main);
+}
