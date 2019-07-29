@@ -1,5 +1,5 @@
 +++
-description = "Some early info about Web Applications"
+description = "Early info about Web Applications"
 title = "Web Applications"
 date = "2019-07-26T11:42:02+0100"
 draft = false
