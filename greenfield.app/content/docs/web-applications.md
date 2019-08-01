@@ -3,7 +3,7 @@ description = "Early info about Web Applications"
 title = "Web Applications"
 date = "2019-07-26T11:42:02+0100"
 draft = false
-weight = 300
+weight = 400
 bref="Don't wan't to run applications remotely? Run them directly in your browser"
 +++
 

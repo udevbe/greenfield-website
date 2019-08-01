@@ -3,7 +3,7 @@ description = "How to add and launch an application"
 title = "Application Walkthrough"
 date = "2019-07-26T11:42:02+0100"
 draft = false
-weight = 300
+weight = 1
 bref="This simple walkthrough explains how you can link, run and edit applications to your account"
 +++
 

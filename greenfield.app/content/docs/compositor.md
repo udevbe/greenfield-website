@@ -1,9 +1,9 @@
 +++
 description = "Building and running the Greenfield compositor in your browser"
-title = "Compositor"
+title = "The Compositor"
 date = "2019-07-26T11:42:02+0100"
 draft = false
-weight = 300
+weight = 100
 bref="The Greenfield compositor is what you see in the browser when you start the Greenfield cloud desktop. It's main responsibility is drawing client applications, along with providing the means to manage them"
 +++
 

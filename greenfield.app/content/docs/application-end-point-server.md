@@ -1,6 +1,6 @@
 +++
 description = "Building and running the Greenfield application end-point server"
-title = "Application end-point server"
+title = "The Application end-point server"
 date = "2019-07-26T11:42:02+0100"
 draft = false
 weight = 200
