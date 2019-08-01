@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Greenfield. on Greenfield</title>
+    <link>https://greenfield.app/</link>
+    <description>Recent content in Greenfield. on Greenfield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jul 2019 11:42:02 +0100</lastBuildDate>
+    
+	<atom:link href="https://greenfield.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Application Walkthrough</title>
+      <link>https://greenfield.app/docs/add-launch-remote-applications/</link>
+      <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>
+      
+      <guid>https://greenfield.app/docs/add-launch-remote-applications/</guid>
+      <description>To associate an application to your account, we need to tell Greenfield about the application type, location and other necessary information. This information is grouped in what&amp;rsquo;s called an &amp;ldquo;application link file&amp;rdquo;. There are several demo application link files already defined in the repository.
+Let&amp;rsquo;s go over the remote gtk3-demo-application link file. This one is configured for gtk3-demo-application but that&amp;rsquo;s not a problem as we can cheat the application endpoint server into launching a different binary.</description>
+    </item>
+    
+    <item>
+      <title>The Compositor</title>
+      <link>https://greenfield.app/docs/compositor/</link>
+      <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>
+      
+      <guid>https://greenfield.app/docs/compositor/</guid>
+      <description>Get the sources:
+git clone https://github.com/udevbe/greenfield.git  Inside the compositor directory run
+npm install  To start the compositor in development mode, run
+npm run start  And wait for the a browser to automatically open a tab to localhost:8080.</description>
+    </item>
+    
+    <item>
+      <title>The Application end-point server</title>
+      <link>https://greenfield.app/docs/application-end-point-server/</link>
+      <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>
+      
+      <guid>https://greenfield.app/docs/application-end-point-server/</guid>
+      <description>Prerequisites:
+ The Greenfield application end-point depends on the native-endpoint module of Westfield so make sure you have the required Westfield native-endpoint dependencies installed.  sudo apt-get install -y libffi-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev  npm install -g cmake-js  At runtime, the endpoint will need gstreamer-1.x with the following plugins:
+ appsrc glupload glcolorconvert glcolorscale tee glshader gldownload x264enc pngenc appsink  Get the sources:
+git clone https://github.com/udevbe/greenfield.git  Inside the app-endpoint-server directory run</description>
+    </item>
+    
+    <item>
+      <title>Remote Applications</title>
+      <link>https://greenfield.app/docs/remote-applications/</link>
+      <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>
+      
+      <guid>https://greenfield.app/docs/remote-applications/</guid>
+      <description>The Greenfield application end-point server live encodes each individual application to an h264 stream which is send to the browser using a dedicated websocket connection. On reception, the h264 stream is decoded and drawn directly into it&amp;rsquo;s own HTML5 canvas. As a result, the screen you see in the browser is actually composed of nothing more than ordinary browser DOM elements.
+Native wayland applications can connect to the in-browser compositor by talking to a local application endpoint server.</description>
+    </item>
+    
+    <item>
+      <title>Web Applications</title>
+      <link>https://greenfield.app/docs/web-applications/</link>
+      <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>
+      
+      <guid>https://greenfield.app/docs/web-applications/</guid>
+      <description>A different variation on distributed applications is to run them directly inside the user&amp;rsquo;s browser. This can be done using a Web worker. A Web Worker is essentially a stand-alone thread/process, completely separate from the main thread. Running applications in a Web Worker isolates client code without impacting the performance of the compositor and provides isolation from malicious clients.
+Greenfield supports web applications. There are however some prerequisites.
+ Web applications must be written in JavaScript so they can be loaded as a Web Worker.</description>
+    </item>
+    
+    <item>
+      <title>Company</title>
+      <link>https://greenfield.app/company/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://greenfield.app/company/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
