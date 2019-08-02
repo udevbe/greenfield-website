@@ -5,7 +5,7 @@ description = "Thou ask and thou shalt receive"
 +++
 
 ## What is Greenfield?
-Greenfield is in a essence an fully fledged Linux Wayland compositor running entirely in a user's browser. It can use WebSockets to interface
+Greenfield is in essence a fully fledged Linux Wayland compositor running entirely in a user's browser. It can use WebSockets to interface
 with remotely running applications, or it can use WebWorkers to run applications directly in a user's browser.
 
 ## How is Greenfield different compared to existing solutions like VNC or RDP?
