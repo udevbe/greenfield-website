@@ -6,10 +6,32 @@
     <description>Recent content in Greenfield. on Greenfield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jul 2019 11:42:02 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 15:49:15 +0200</lastBuildDate>
     
 	<atom:link href="https://greenfield.app/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quick-start Guide</title>
+      <link>https://greenfield.app/docs/quick-start-guide/</link>
+      <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>
+      
+      <guid>https://greenfield.app/docs/quick-start-guide/</guid>
+      <description>In a Linux terminal run:
+ git clone https://github.com/udevbe/greenfield.git cd greenfield/environments/local docker-compose up  This will start 3 containers.
+ An app-endpoint-server, has the gtk3-demo-application as launchable application. A dummy X server, required by the gstreamer encoder from the app-endpoint-server to run OpengGL commands. Not used for anything else. An nginx server, has ssl termination and uses a self-signed localhost certificate so a secure websocket connection can be set up.  Your browser will, by default, reject the secure websocket connection as it uses a self-signed certificate.</description>
+    </item>
+    
+    <item>
+      <title>The life and performance of an application frame.</title>
+      <link>https://greenfield.app/blog/life-of-an-application-frame/</link>
+      <pubDate>Mon, 21 Oct 2019 15:49:15 +0200</pubDate>
+      
+      <guid>https://greenfield.app/blog/life-of-an-application-frame/</guid>
+      <description>To understand the life and performance of an application frame inside Greenfield, it&amp;rsquo;s important to understand the difference between a plain video streaming solution, and the design used by Greenfield.
+A Simple Video Streaming Solution If we are to define the maximum FPS as: &amp;ldquo;maximum number of frames an application can send to the compositor without the display pipeline clogging&amp;rdquo;, The pipeline basically looks like this: server side
+client application renders frame</description>
+    </item>
     
     <item>
       <title>Application Walkthrough</title>

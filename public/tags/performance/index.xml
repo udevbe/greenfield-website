@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Greenfield</title>
-    <link>https://greenfield.app/blog/</link>
-    <description>Recent content in Blogs on Greenfield</description>
+    <title>performance on Greenfield</title>
+    <link>https://greenfield.app/tags/performance/</link>
+    <description>Recent content in performance on Greenfield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2019 15:49:15 +0200</lastBuildDate>
     
-	<atom:link href="https://greenfield.app/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://greenfield.app/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

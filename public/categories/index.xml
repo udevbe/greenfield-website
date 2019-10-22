@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Greenfield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 21 Oct 2019 15:49:15 +0200</lastBuildDate>
     
 	<atom:link href="https://greenfield.app/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>core</title>
+      <link>https://greenfield.app/categories/core/</link>
+      <pubDate>Mon, 21 Oct 2019 15:49:15 +0200</pubDate>
+      
+      <guid>https://greenfield.app/categories/core/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

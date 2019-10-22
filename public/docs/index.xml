@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Quick-start Guide</title>
+      <link>https://greenfield.app/docs/quick-start-guide/</link>
+      <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>
+      
+      <guid>https://greenfield.app/docs/quick-start-guide/</guid>
+      <description>In a Linux terminal run:
+ git clone https://github.com/udevbe/greenfield.git cd greenfield/environments/local docker-compose up  This will start 3 containers.
+ An app-endpoint-server, has the gtk3-demo-application as launchable application. A dummy X server, required by the gstreamer encoder from the app-endpoint-server to run OpengGL commands. Not used for anything else. An nginx server, has ssl termination and uses a self-signed localhost certificate so a secure websocket connection can be set up.  Your browser will, by default, reject the secure websocket connection as it uses a self-signed certificate.</description>
+    </item>
+    
+    <item>
       <title>Application Walkthrough</title>
       <link>https://greenfield.app/docs/add-launch-remote-applications/</link>
       <pubDate>Fri, 26 Jul 2019 11:42:02 +0100</pubDate>

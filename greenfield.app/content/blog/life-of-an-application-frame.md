@@ -1,6 +1,6 @@
 +++
 date = "2019-10-21T15:49:15+02:00"
-title = "Life and performance of an application frame."
+title = "The life and performance of an application frame."
 tags = ["fps","latency", "roundtrip", "performance"]
 categories = ["core"]
 description = "About FPS, inputs and round-trips"
@@ -28,11 +28,17 @@ decode h264 frame
 display on screen  
 </p>
 
-With this setup you should be able to reach 30 to 60 FPS on a full HD (1920x1080) application using a reasonable fast desktop PC. 
+With this setup you should be able to reach 30 to 60 FPS with a full HD (1920x1080) application using a reasonable fast 
+desktop PC, depending mostly on the encoding and decoding speed.
 
-To start rendering the next frame we simply need to know what part of these steps is the slowest (in Greenfield that's decoding.) and push images through the pipeline at that interval. This will also automatically be your FPS.
+To start rendering the next frame we simply need to know what part of these steps is the slowest (in Greenfield that's 
+decoding.) and push images through the pipeline at that interval. This will also automatically be your FPS.
 
-However this is quite a useless definition as it tells you nothing about the input reaction time, that is the time it takes to update the application based on user input, which is heavily dependent on the network latency. There's also the mechanism in Wayland where an application will not start rendering the next frame until the compositor explicitly tells the application it's OK to do so. In other words, the application will always wait for the compositor before it will start rendering the next frame.
+However this is quite a useless definition as it tells you nothing about the input reaction time, that is the time it 
+takes to update the application based on user input, which is heavily dependent on the network latency. There's also 
+the requirement in the Wayland protocol (which Greenfield uses internally), where an application will not start 
+rendering the next frame until the compositor explicitly tells the application it's OK to do so. In other words, 
+the application will always wait for the compositor before it will start rendering the next frame.
 
 ### Greenfield Solution
 
