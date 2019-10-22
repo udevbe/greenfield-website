@@ -9,16 +9,29 @@
         Greenf<span class="gr-logoi">i</span>eld
       </span>
     </h1>
-    <p>{{.Description}}</p>
+    <p>Greenfield is a desktop environment running entirely in your browser.
+        Unlike other solutions, it does not forward the entire remote screen. Instead, Greenfield talks directly to the application itself.
+        As a consequence, Greenfield can work with distributed native applications that run on physically different machines, as well
+        as sand-boxed web applications that run inside the browser. This makes Greenfield nothing less than the world's first true cloud desktop.
+    </p>
   </div>
   <div id="action-buttons">
     <a class="button primary big" href="https://preview.greenfield.app"
        onclick="ga('send','event', 'greenfield', 'preview');" target="_blank">Live Demo [BETA]</a>
     <a class="button outline big" href="https://github.com/udevbe/greenfield"
        onclick="ga(['send','event', 'greenfield', 'github']);" target="_blank">View Source</a>
+    <p>Greenfield BETA currently only supports Linux Wayland applications. Support for Linux X11 and Windows applications is planned.</p>
+    <p>More questions? Checkout the <a href="/faq">FAQ</a> or <a href="mailto:info@udev.be">contact us</a>.</p>
+    <p>For developers there is a <a href="/docs/quick-start-guide">quick-start</a> guide.</p>
   </div>
+
+
   <div id="kube-features">
-        <div class="row gutters">
+      <div class="row gutters">
+            <div class="col col-12 item">
+            </div>
+      </div>
+      <div class="row">
             <div class="col col-4 item">
                 <figure>
                     <img alt="Baseline" height="48" src="{{ "/img/cloud-rainbow.svg" | relURL }}" width="100">
@@ -40,7 +53,8 @@
                 <h4>License</h4>
                 <p>Greenfield is licensed under <a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0</a>.<br>
             </div>
-    </div>
+      </div>
+  </div>
 </div>
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}
